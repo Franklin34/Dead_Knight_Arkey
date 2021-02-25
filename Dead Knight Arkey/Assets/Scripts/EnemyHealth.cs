@@ -5,6 +5,7 @@ using UnityEngine;
 public class EnemyHealth : MonoBehaviour
 {
     private int health = 3;
+    public float death = 0.5f;
 
     private Animator _animator;
 
@@ -30,7 +31,7 @@ public class EnemyHealth : MonoBehaviour
     {
         _animator.SetTrigger("Death");
 
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(death);
 
         gameObject.SetActive(false);
     }

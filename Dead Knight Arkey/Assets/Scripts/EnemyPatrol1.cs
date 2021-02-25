@@ -15,7 +15,7 @@ public class EnemyPatrol1 : MonoBehaviour
 
     //Movimiento
     private Vector2 _movement;
-    private bool _facingRight;
+    public bool _facingRight;
 
     private bool _isAttacking;
 

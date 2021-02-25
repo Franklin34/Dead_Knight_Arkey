@@ -48,7 +48,6 @@ public class PlayerHealth : MonoBehaviour
 
         lifepoints.text = health.ToString();
 
-        Debug.Log("Player got damage. His current health is " + health);
 
     }
     private IEnumerator VisualFeedback()
