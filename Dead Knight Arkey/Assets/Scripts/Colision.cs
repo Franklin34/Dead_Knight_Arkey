@@ -20,7 +20,6 @@ public class Colision : MonoBehaviour
     {
         if(collision.gameObject.tag == "Player")
         {
-            Debug.Log("entrefwsefwe");
             SceneManager.LoadScene("Nivel2",LoadSceneMode.Single);
         }
     }

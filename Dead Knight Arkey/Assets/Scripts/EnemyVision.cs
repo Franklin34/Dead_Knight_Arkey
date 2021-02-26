@@ -52,10 +52,10 @@ public class EnemyVision : MonoBehaviour
 
     }
 
-    private void OnDrawGizmos()
+   /* private void OnDrawGizmos()
     {
         Gizmos.color = Color.yellow;
 
         Gizmos.DrawWireSphere(transform.position, visionRadiuss);
-    }
+    }*/
 }

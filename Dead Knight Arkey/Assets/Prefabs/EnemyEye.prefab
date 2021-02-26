@@ -173,7 +173,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -214,6 +214,7 @@ MonoBehaviour:
     m_Bits: 256
   playerAware: 3
   aimingtime: 0.5
+  _facingRight: 0
 --- !u!114 &4507366395872785001
 MonoBehaviour:
   m_ObjectHideFlags: 0
